@@ -1,0 +1,5 @@
+{
+"URLThreshold":100,
+"filterDynamicURLs" : true,
+"allowedDomains" : ["www.ics.uci.edu","ics.uci.edu"]
+}
