@@ -29,7 +29,7 @@ Regex Matchers for URLs
 invalid_types_matcher = re.compile('.*\\.(css|js|bmp|gif|jpe?g|ico' + '|png|tiff?|mid|mp2|mp3|mp4' + '|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf' + '|ps|eps|tex|ppt|pptx|pps|doc|docx|xls|xlsx|names|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso|epub|dll|cnf|tgz|sha1|sql' + '|thmx|mso|arff|rtf|jar|csv' + '|rm|smil|wmv|swf|wma|zip|rar|gz|pdf|ipynb|bib|java|py|txt|bam|class|sql|r|m|lif)$' + '|mat|raw|fig|log|rtf|js|sh')
 content_del_matcher = re.compile('^.*(/misc|/sites|/all|/themes|/modules|/profiles|/css|/field|/node|/theme){3}.*$')
 length_matcher = re.compile('^.*/[^/]{100,}$')
-keywords_matcher = re.compile('^.*(calendar|files|directory|build|ds_store|gang|private|cgi-bin|repository|project|archive|fano|ironwood|release|dataset)+.*$')
+keywords_matcher = re.compile('^.*(calendar|files|directory|build|ds_store|gang|private|repository|project|archive|release|dataset)+.*$')
 repeatition_matcher = re.compile('.*?([^\\/\\&?]{4,})(?:[\\/\\&\\?])(.*?\\1){3,}.*')
 domain_matcher = re.compile('^(http(s)?(:\\/\\/))?(www\\.)?.*\\.ics\\.uci\\.edu(\\/.*)?$')
 
